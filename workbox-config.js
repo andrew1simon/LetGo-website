@@ -20,7 +20,7 @@ module.exports = {
 			urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
 			handler: 'CacheFirst',
 			options: {
-			  cacheName: 'fontaw-cache',
+			  cacheName: 'google-font',
 			  expiration: {
 				maxEntries: 10,
 				maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
